@@ -49,6 +49,7 @@ flowchart LR
     subgraph Report["Report"]
         XL["Color-coded Excel\n(Summary + Detail)"]
         JSON["Full JSON run log"]
+        Dashboard["HTML Overview of Comparison Results with MATCH, MISMATCH, WARNING tags for each filed"]
     end
 
     API --> FETCH --> XML
