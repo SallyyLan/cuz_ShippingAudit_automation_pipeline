@@ -62,6 +62,7 @@ flowchart LR
     RULES --> ENGINE
     ENGINE --> XL
     ENGINE --> JSON
+    ENGINE --> Dashboard    
 ```
 
 ## Key features
